@@ -1,0 +1,35 @@
+/* Estilização global do site como um todo */
+* {margin: auto; padding: 0; box-sizing: border-box;}
+
+/* estilo do body */
+.estilo_body {background-color: rgba(0, 255, 255, 0.336);}
+
+/* posição do contador/ hora */
+#hora_resultado {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    top: 1em;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 140, 255, 0.336);
+    width: 730px;
+    height: 230px;
+    font-size: 150pt;
+    border-radius: 10px;
+}
+
+/* aplicando estilização no dia/semana */
+#dia_semana {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    top: 8.5em;
+    right: 0;
+    bottom: 0;
+    left: 0em;
+    color: black;
+    width: 158px;
+    font-size: 15pt;
+}
+
